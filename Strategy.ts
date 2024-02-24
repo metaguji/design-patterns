@@ -49,8 +49,8 @@ console.log(
 
 // Altering strategy
 orderWithStrategyA.setTaxStrategy(new StrategyB());
-const totalMarsOrderWithTaxB = orderWithStrategyA.calculateTotalWithTax(1000);
+const totalOrderWithStrategyB = orderWithStrategyA.calculateTotalWithTax(1000);
 
 console.log(
-  `(StrategyB) Total order with tax inclusive: ${totalMarsOrderWithTaxB}`
+  `(StrategyB) Total order with tax inclusive: ${totalOrderWithStrategyB}`
 );
